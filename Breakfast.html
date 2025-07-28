@@ -2,10 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
+     <style>
         body { font-family: Arial, sans-serif; font-size: 14px; }
-        table { border-collapse: collapse; width: 100%; }
+        table { border-collapse: collapse; width: 100%; table-layout: fixed; }
         th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+        th:nth-child(1), td:nth-child(1) { width: 20%; } /* Reduce Ingredient column width */
         th { background-color: #f2f2f2; }
     </style>
 </head>
